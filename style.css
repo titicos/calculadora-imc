@@ -6,11 +6,12 @@
 }
 
 .container{
+    width: 30%;
     background-color: blueviolet;
     position:absolute;
     padding: 50px;
     box-shadow: black 2px 5px 3px;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: flex;
@@ -54,12 +55,9 @@ button:hover{
 }
 
 #resultado{
-    width: 340px;
+    width: 100%;
     height: 100px;
     background-color: blueviolet;
-    position: absolute;
-    top: 70%;
-    left:37.5%;
     border: 2px solid black;
     padding: 5px;
     text-align: center;
